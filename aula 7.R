@@ -138,7 +138,7 @@ summary(total_tail_mod)
 # dos animais. Conciliar essas duas no��es ser� o pr�ximo passo.
 
 books_mod <- lm(ucla_new ~ amaz_new, data = textbooks)
-
+#multiple r-squared é a porcentagem que o modelo acerta em relação aos dados reais
 summary(books_mod)
 
 ### Qu�o bem nosso modelo de livro did�tico se encaixa?
